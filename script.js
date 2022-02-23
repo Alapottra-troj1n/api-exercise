@@ -52,15 +52,8 @@ for(country of countries) {
    
 // }
 
-window.addEventListener('load', ()=>{
-    
-    if(document.readyState === "complete"){
+window.addEventListener('load', ()=>{  
         document.getElementById('spinner').style.display = 'none';
-    }else{
-        document.getElementById('spinner').style.display = 'block';
-    }
-
-    
-
 });
+
 
