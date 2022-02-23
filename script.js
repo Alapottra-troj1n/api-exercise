@@ -47,3 +47,20 @@ for(country of countries) {
 
    
 });
+
+// window.addEventListener('load', ()=>{
+   
+// }
+
+window.addEventListener('load', ()=>{
+    
+    if(document.readyState === "complete"){
+        document.getElementById('spinner').style.display = 'none';
+    }else{
+        document.getElementById('spinner').style.display = 'block';
+    }
+
+    
+
+});
+
