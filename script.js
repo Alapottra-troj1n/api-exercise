@@ -35,7 +35,7 @@ searchField.addEventListener('keyup', ()=>{
     
 
 for(country of countries) {
-    if(country.children[2].innerText.toLowerCase().includes(value)){
+    if(country.children[1].innerText.toLowerCase().includes(value)){
         country.style.display = 'block';
     }else{
         country.style.display = 'none';
